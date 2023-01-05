@@ -1,5 +1,6 @@
 # Sign-up-form
 
-# Credits
+
+Credits:
 
 Background image : John Rodenn Castillo [https://unsplash.com/photos/eluzJSfkNCk]
