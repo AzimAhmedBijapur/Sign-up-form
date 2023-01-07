@@ -44,7 +44,7 @@ body{
 }
 .logo-txt p{
     font-family: logo-font,sans-serif;
-    font-size: calc(3rem + 3vw);
+    font-size: calc(2rem + 7vw);
     text-shadow: 4px 4px rgba(10, 21, 61, 0.8);
 }
 .logo-txt{
@@ -73,10 +73,12 @@ body{
     gap: 5px;
 
 }
-.group-input div{
+.group-input-row{
     display: flex;
-    gap: 4px;
-    flex-direction: column;
+    gap: 50px;
+}
+.group-input-row div{
+    margin: 4px;
 }
 legend{
     font-size: calc(14px + 0.5vw);
@@ -114,7 +116,7 @@ form{
     margin-left: 40px;
 }
 input,label{
-    width: calc(250px + 2vw);
+    width: calc(72px + 15vw);
     height: calc(20px + 0.5vw);
     border-radius: 5px;
 }
@@ -129,12 +131,12 @@ input{
     margin-top: 60px;
 }
 #create-acc{
-    width: calc(200px + 2vw);
-    height: calc(10px + 2vw);
+    width: calc(50px + 15vw);
+    height: calc(20px + 1.5vw);
     font-size: calc(10px + 0.5vw);
     font-weight: bold;
     font-family: sans-serif;
-    padding: 2px;
+    padding: 5px;
     border-radius: 8px;
     border: none;
     background-color: #596D48;
@@ -160,6 +162,78 @@ input:focus{
 input:required{
     border: 3px solid #E5E7EB;
 }
-/* input:invalid{
-    border: 3px solid red;
-} */
+.error-msg{
+    color: red;
+    font-size: calc(10px + 0.5vw);
+    padding: 5px;
+}
+@media only screen and (max-width:1200px){
+    .main-container{
+        display: block;
+    }
+    form{
+        display: block;
+    }
+    .form-content{
+        display: block;
+        margin-left: 0px;
+    }
+    .para{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 10px;
+    }
+    .para div{
+        width:80%;
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .logo-holder{
+        position: relative;
+        top: 0px;
+        
+    }
+    .sign-in-acc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sign-in-acc p{
+        text-align: center;
+    }
+    .sign-in-acc{
+        margin-left: 0px;
+    }
+    .legend-form legend{
+        text-align: center;
+    }
+    .legend-form{
+        margin-left: 0px;
+    }
+    .group-input-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .group-input-row div{
+        margin: 4px;
+    }
+    input,label{
+        width: calc(72px + 15vw);
+    }
+    #create-acc{
+        width: calc(60px + 15vw);
+        height: calc(30px + 1.5vw);
+    }
+    .error-msg{
+        /* width: fit-content; */
+        display: flex;
+        justify-content: center;
+        /* text-align: center; */
+    }
+}
