@@ -33,6 +33,9 @@ function validatePassword(){
         {
             document.querySelector('.error-msg').textContent='*Password must contain uppercase, numeric and special character';
         }
+        else if(pw=='' && cpw==''){
+            
+        }
         else{
             document.querySelector('.error-msg').textContent='*Passwords does not match';
         }

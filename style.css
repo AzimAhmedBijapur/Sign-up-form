@@ -66,13 +66,6 @@ body{
     color: black;
     font-size: calc(14px + 0.5vw);
 }
-
-.group-input{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-
-}
 .group-input-row{
     display: flex;
     gap: 50px;
@@ -123,7 +116,7 @@ input,label{
 input{
     font-size: calc(10px + 0.5vw);
     font-family: sans-serif;
-    border: 2px solid #E5E7EB;
+    border: 3px solid #E5E7EB;
 }
 .sign-in-acc{
     flex: 1;
@@ -158,9 +151,6 @@ input{
 input:focus{
     border: 3px solid blue;
     box-shadow: 2px 2px 8px lightblue;
-}
-input:required{
-    border: 3px solid #E5E7EB;
 }
 .error-msg{
     color: red;
@@ -231,9 +221,7 @@ input:required{
         height: calc(30px + 1.5vw);
     }
     .error-msg{
-        /* width: fit-content; */
         display: flex;
         justify-content: center;
-        /* text-align: center; */
     }
 }
