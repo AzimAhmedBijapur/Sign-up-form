@@ -157,6 +157,9 @@ input:focus{
     font-size: calc(10px + 0.5vw);
     padding: 5px;
 }
+input::placeholder{
+    color: lightgrey;
+}
 @media only screen and (max-width:800px){
     .main-container{
         display: block;
