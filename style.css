@@ -167,7 +167,7 @@ input:required{
     font-size: calc(10px + 0.5vw);
     padding: 5px;
 }
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:800px){
     .main-container{
         display: block;
     }
