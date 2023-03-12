@@ -1,6 +1,6 @@
 # Sign-up-form
 
-![image](https://user-images.githubusercontent.com/104296616/224567736-903c4959-7495-48e2-aeff-63c29cfe7024.png)
+![image](https://user-images.githubusercontent.com/104296616/224567770-2c174d31-b1f7-4d59-95b7-85d5ea5f5e15.png)
 
 Credits:
 
